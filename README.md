@@ -1,2 +1,2 @@
 # study-ts
-记录学习ts
+记录学习 ts 

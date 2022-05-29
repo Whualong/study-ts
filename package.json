@@ -1,0 +1,21 @@
+{
+  "name": "study-ts",
+  "version": "1.0.0",
+  "description": "记录学习 ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc ",
+    "watch" : "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeWen666/study-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeWen666/study-ts/issues"
+  },
+  "homepage": "https://github.com/codeWen666/study-ts#readme"
+}

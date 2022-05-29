@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "strict" : false,
+    "target": "es2020",
+    "strict" : true,
+    "lib":["es6","dom"]
   },
+  "strictNullCheck" : true,
   
 }

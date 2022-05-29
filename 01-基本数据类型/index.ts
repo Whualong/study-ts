@@ -1,35 +1,41 @@
+/*************
+@Author wenhualong
+ts 基本类型
+Boolean
+Number
+String
+Symbol
+bigint
+null
+undefined
+void
+开启严格的空检查时 null 和 undefined 只能赋值给自身和any类型  *(undefined 可以赋值给void类型 null不可以)
+**************/
+
 let flag : boolean ;
 flag = true
-flag = null
-flag = undefined
 flag = Boolean(1)
 
 let str : string;
 str = ""
-str = null
-str = undefined
 str = String(123)
 
 let num : number
 num = 1
 num = Number ('12')
-num = null
-num = undefined
 
 let kong : null;
-kong = undefined
 kong = null 
 
 let und : undefined
 und = undefined
-und = null
 
 let vo : void
-vo = null
+
 vo = undefined
 
 function testvoid () : void{
-  return null 
+  return undefined 
 }
 
 function testvoid1 () : void{
@@ -38,5 +44,13 @@ function testvoid1 () : void{
 
 function testvoid2 () : void{
   alert('haha ') ;
+  return 
 }
 
+function throwErr ( msg : string ) : never {
+  throw new Error( msg )
+}
+
+let symbol : Symbol = Symbol('1')
+
+let big : bigint = 12n

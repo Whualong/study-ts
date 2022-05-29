@@ -1,8 +1,6 @@
 let numArr : number [] = [1,2343,34]
-numArr.push('9') // 报错
 numArr.push(10) 
-numArr.push(null)
-numArr.push(undefined)
+
 
 
 let strArr : Array<string> = [ '23','56']

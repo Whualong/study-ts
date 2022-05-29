@@ -1,8 +1,8 @@
 interface Person {
-  readonly 'name' ?: string ;
-  'age' : number ;
+  readonly 'name' ?: string  ;
+  'age' : number;
   'height' ?: number;
-  [propName : string] : string | number ;
+  [propName : string] : string | number | undefined;
 }
 
 let person : Person = {
@@ -13,4 +13,4 @@ let person : Person = {
 }
 
 person.age = 34;
-person.name = 'haha' // 报错
+

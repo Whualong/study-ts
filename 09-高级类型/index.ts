@@ -1,0 +1,22 @@
+type Unit = | "Years" 
+            | 'year' 
+            | 'y' 
+            | 'Weeks' 
+            | 'Week' 
+            | 'w' 
+            | 'Days' 
+            | 'Day' 
+            | 'd' 
+            | 'Hours'
+            | 'Hour'
+            | 'h'
+            | 'Minutes'
+            | 'Minute'
+            | 'm'
+            | 'Seconds'
+            | 'Second'
+            | 's'
+            | 'Milliseconds'
+            | 'Millisecond'
+            | 'ms' ;
+type UnitAnyCase = Unit | Uppercase<Unit> | Lowercase<Unit>;

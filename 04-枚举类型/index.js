@@ -1,12 +1,22 @@
 "use strict";
+/*
+ * @Author: wenhualong wenhualong@zuoshouyisheng.com
+ * @Date: 2022-02-10 15:25:48
+ * @LastEditors: wenhualong wenhualong@zuoshouyisheng.com
+ * @LastEditTime: 2022-06-02 13:20:00
+ * @FilePath: /study-ts/04-枚举类型/index.ts
+ * @Description:
+ *
+ * Copyright (c) 2022 by wenhualong wenhualong@zuoshouyisheng.com, All Rights Reserved.
+ */
 var Direction;
 (function (Direction) {
-    Direction[Direction["Up"] = 0] = "Up";
-    Direction[Direction["Down"] = 1] = "Down";
-    Direction[Direction["Left"] = 2] = "Left";
-    Direction[Direction["Right"] = 3] = "Right";
+    Direction[Direction["Up"] = 1.4] = "Up";
+    Direction[Direction["Down"] = 2.4] = "Down";
+    Direction[Direction["Left"] = 3.4] = "Left";
+    Direction[Direction["Right"] = 4.4] = "Right";
 })(Direction || (Direction = {}));
-let a1 = Direction.Up;
-console.log(a1);
+;
+let directions = [0 /* Up */, 1 /* Down */];
 let b;
 b = 0;

@@ -5,5 +5,6 @@
     "lib":["es6","dom"]
   },
   "strictNullCheck" : true,
-  
+  "include": [ "./**/*" ],
+  "exclude": [  ]
 }
